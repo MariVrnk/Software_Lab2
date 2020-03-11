@@ -43,4 +43,8 @@ public class Calculating{
     public double abs(double a){
         return Math.abs(a);
     }
+
+    public double ln(double a){
+        return Math.log(a);
+    }
 }
