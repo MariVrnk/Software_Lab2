@@ -53,6 +53,9 @@ public class Menu{
                 case "ceil":
                 System.out.println(calc.ceil(a));
                 break;
+                case "todeg":
+                System.out.println(calc.toDeg(a));
+                break;
             }
         }
     }
