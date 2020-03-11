@@ -57,4 +57,9 @@ public class AppTest {
     public void absTest() throws Exception {
         assertEquals(1, calc.abs(-1), mistake);
     }
+
+    @Test
+    public void lnTest() throws Exception {
+        assertEquals(0, calc.ln(1), mistake);
+    }
 }
