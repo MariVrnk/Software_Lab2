@@ -59,4 +59,8 @@ public class Calculating{
     public double toDeg(double a){
         return Math.toDegrees(a);
     }
+
+    public double toRad(double a){
+        return Math.toRadians(a);
+    }
 }
