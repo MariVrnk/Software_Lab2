@@ -40,7 +40,13 @@ public class Menu{
                 break;
                 case "exp":
                 System.out.println(calc.exponent(a));
-                break;               
+                break; 
+                case "abs":
+                System.out.println(calc.abs(a));
+                break;              
+                case "ln":
+                System.out.println(calc.ln(a));
+                break;
             }
         }
     }
