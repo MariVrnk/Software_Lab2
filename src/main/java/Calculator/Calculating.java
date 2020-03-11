@@ -51,4 +51,8 @@ public class Calculating{
     public double log10(double a){
         return Math.log10(a);
     }
+
+    public double ceil(double a){
+        return Math.ceil(a);
+    }
 }
