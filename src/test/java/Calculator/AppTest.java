@@ -77,4 +77,9 @@ public class AppTest {
     public void toDegTest() throws Exception {
         assertEquals(180, calc.toDeg(Math.PI), mistake);
     }
+
+    @Test
+    public void toRadTest() throws Exception {
+        assertEquals(Math.PI, calc.toRad(180), mistake);
+    }
 }

@@ -56,6 +56,9 @@ public class Menu{
                 case "todeg":
                 System.out.println(calc.toDeg(a));
                 break;
+                case "torad":
+                System.out.println(calc.toRad(a));
+                break;
             }
         }
     }
