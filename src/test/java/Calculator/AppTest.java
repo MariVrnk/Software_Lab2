@@ -52,4 +52,9 @@ public class AppTest {
     public void expTest() throws Exception {
         assertEquals(1, calc.exponent(0), mistake);
     }   
+
+    @Test
+    public void absTest() throws Exception {
+        assertEquals(1, calc.abs(-1), mistake);
+    }
 }
