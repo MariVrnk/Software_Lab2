@@ -55,4 +55,11 @@ public class Calculating{
     public double ceil(double a){
         return Math.ceil(a);
     }
+public double toDeg(double a){
+        return Math.toDegrees(a);
+    }
+
+    public double toRad(double a){
+        return Math.toRadians(a);
+    }
 }

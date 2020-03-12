@@ -72,4 +72,13 @@ public class AppTest {
     public void ceilTest() throws Exception {
         assertEquals(5, calc.ceil(4.8), mistake);
     }
+@Test
+    public void toDegTest() throws Exception {
+        assertEquals(180, calc.toDeg(Math.PI), mistake);
+    }
+
+    @Test
+    public void toRadTest() throws Exception {
+        assertEquals(Math.PI, calc.toRad(180), mistake);
+    }
 }

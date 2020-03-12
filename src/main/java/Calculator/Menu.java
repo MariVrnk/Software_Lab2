@@ -43,7 +43,7 @@ public class Menu{
                 break; 
                 case "abs":
                 System.out.println(calc.abs(a));
-                break;              
+                break; 
                 case "ln":
                 System.out.println(calc.ln(a));
                 break;
@@ -52,6 +52,12 @@ public class Menu{
                 break;
                 case "ceil":
                 System.out.println(calc.ceil(a));
+                break;
+                case "todeg":
+                System.out.println(calc.toDeg(a));
+                break;
+                case "torad":
+                System.out.println(calc.toRad(a));
                 break;
             }
         }
