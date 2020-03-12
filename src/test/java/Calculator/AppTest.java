@@ -57,29 +57,4 @@ public class AppTest {
     public void absTest() throws Exception {
         assertEquals(1, calc.abs(-1), mistake);
     }
-
-    @Test
-    public void lnTest() throws Exception {
-        assertEquals(0, calc.ln(1), mistake);
-    }
-
-    @Test
-    public void log10Test() throws Exception {
-        assertEquals(2, calc.log10(100), mistake);
-    }
-
-    @Test
-    public void ceilTest() throws Exception {
-        assertEquals(5, calc.ceil(4.8), mistake);
-    }
-
-    @Test
-    public void toDegTest() throws Exception {
-        assertEquals(180, calc.toDeg(Math.PI), mistake);
-    }
-
-    @Test
-    public void toRadTest() throws Exception {
-        assertEquals(Math.PI, calc.toRad(180), mistake);
-    }
 }

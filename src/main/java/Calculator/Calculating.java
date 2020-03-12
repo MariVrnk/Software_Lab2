@@ -43,24 +43,4 @@ public class Calculating{
     public double abs(double a){
         return Math.abs(a);
     }
-
-    public double ln(double a){
-        return Math.log(a);
-    }
-
-    public double log10(double a){
-        return Math.log10(a);
-    }
-
-    public double ceil(double a){
-        return Math.ceil(a);
-    }
-
-    public double toDeg(double a){
-        return Math.toDegrees(a);
-    }
-
-    public double toRad(double a){
-        return Math.toRadians(a);
-    }
 }
